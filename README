@@ -1,0 +1,15 @@
+Etalk
+=======
+
+This is a very simple chat daemon using SSL and curses. It's written in python.
+The default port is 1776.
+
+Usage:
+
+As host:
+  ./etalk - start curses interface and wait for a connection (the screen will split when your user connects)
+
+As client:
+  ./etalk 5.4.1.2 - connect to some machine
+  ./etalk 5.4.1.2 1776 - connect on a custom port
+
